@@ -153,3 +153,31 @@ h3 {
     font-weight: 900;
     margin-left: auto;
 }
+
+/* CTA Section */
+.cta-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cta-wrapper {
+    width: 900px;
+    padding: 30px 100px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-main-text {
+    font-weight: 900;
+    font-size: 18px
+}
+
+.cta {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
