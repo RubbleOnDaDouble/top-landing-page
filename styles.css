@@ -41,7 +41,7 @@ a {
 }
 
 .nav, .cta-wrapper, .boxes-container, .content-2-wrapper, h3 {
-    width: 1500px;
+    width: 75vw;
 }
 
 .header, .hero-banner {
@@ -70,7 +70,7 @@ a {
 }
 
 .hero-left, .hero-right {
-    width: 750px;
+    width: 35vw;
     padding: 20px;
 }
 
