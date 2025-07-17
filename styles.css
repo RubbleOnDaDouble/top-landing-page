@@ -41,7 +41,7 @@ a {
 }
 
 .nav, .cta-wrapper, .boxes-container, .content-2-wrapper, h3 {
-    width: 1000px;
+    width: 1500px;
 }
 
 .header, .hero-banner {
@@ -70,7 +70,7 @@ a {
 }
 
 .hero-left, .hero-right {
-    width: 500px;
+    width: 750px;
     padding: 20px;
 }
 
@@ -99,7 +99,9 @@ a {
 
 .hero-right {
     background-color: darkgray;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* content-1 Section */
@@ -121,6 +123,7 @@ h3 {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    gap: 20px;
 }
 
 .box-container {
@@ -145,7 +148,7 @@ h3 {
 }
 
 .content-2-wrapper {
-    padding: 40px;
+    padding: 40px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
