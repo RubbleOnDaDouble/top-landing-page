@@ -27,11 +27,25 @@ a {
     align-items: center;
 }
 
+/* Common Styles */
+.header, .hero-banner, .content-1, .content-2, .cta-section, .footer {
+    width: 100vw;
+}
+
+.header, .hero-banner, .content-1, .content-2, .cta-section {
+    display: flex;
+}
+
+.header, .hero-banner, .content-2, .cta-section {
+    justify-content: center;
+}
+
+.nav, .cta-wrapper, .boxes-container, .content-2-wrapper, h3 {
+    width: 1000px;
+}
+
 .header, .hero-banner {
     background-color: #1F2937;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
     color: #E5E7EB;
 }
 
@@ -44,7 +58,6 @@ a {
 
 .nav {
     padding: 20px;
-    width: 900px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -55,8 +68,9 @@ a {
 .hero-banner {
     padding: 40px;
 }
+
 .hero-left, .hero-right {
-    width: 450px;
+    width: 500px;
     padding: 20px;
 }
 
@@ -80,6 +94,7 @@ a {
     border: none;
     border-radius: 6px;
     padding: 10px 30px;
+    font-family: "Roboto", "Times New Roman", Times, serif;
 }
 
 .hero-right {
@@ -90,15 +105,12 @@ a {
 /* content-1 Section */
 .content-1 {
     padding: 40px;
-    width: 100vw;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h3 {
     text-align: center;
-    width: 900px;
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
@@ -106,7 +118,6 @@ h3 {
 }
 
 .boxes-container {
-    width: 900px;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
@@ -129,15 +140,11 @@ h3 {
 
 /* Content 2 Section */
 .content-2 {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
 }
 
 .content-2-wrapper {
-    width: 900px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -159,14 +166,10 @@ h3 {
 
 /* CTA Section */
 .cta-section {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
     padding: 40px;
 }
 
 .cta-wrapper {
-    width: 900px;
     padding: 30px 100px;
     border-radius: 6px;
     background-color: #3882F6;
@@ -187,7 +190,6 @@ h3 {
 
 /* Footer Section */
 .footer {
-    width: 100vw;
     background-color: #1F2937;
     color:#F9FAF8;
     padding: 40px;
